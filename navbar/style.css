@@ -1,0 +1,42 @@
+/*
+ * style.css
+ */
+
+
+/* メイン色 */
+.bg-main {
+    background-color: lightseagreen !important;
+}
+
+/* メインテキスト色 */
+.text-main {
+    color: lightseagreen !important;
+}
+
+/* メインテキスト色 ( 暗め ) */
+.text-main-dark {
+    color: darkslategray !important;
+}
+
+/* ドロップダウンメニューの項目 ( 通常時 ) */
+.dropdown-item > a {
+    background-color: darkcyan !important;
+    opacity: 0.5;
+}
+
+/* ドロップダウンメニューの項目 ( ホバー時 ) */
+.dropdown-item:hover {
+    background-color: darkcyan !important;
+}
+
+/* ドロップダウンメニューの項目の分割部分 */
+.dropdown-divider {
+    margin: 0.0rem 0.0rem;
+    border-top: 1px solid darkcyan;
+}
+
+/* ドロップダウンメニュー全体の角 */
+.dropdown-menu {
+    padding: 0.0rem 0.0rem;
+    border-radius: 0.0rem;
+}
