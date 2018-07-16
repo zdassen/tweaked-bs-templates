@@ -1,0 +1,68 @@
+/*
+ * style.css
+ */
+
+/* static .. 頑固おやじ、位置の調整ができない、デフォルト */
+
+/* absolute .. 代々受け継がれてきた秘伝のタレの味 */
+
+/* relative .. 俺が作ったタレの味、自分が成長するとき、 */
+/* その伸びしろは過去の自分との比較だから */
+/* ( つまり基準を他に求めないので ) relative = 相対評価 */
+/* 自己というのは揺らぐもの、だからあっちへ行ったりこっちへ行ったり */
+/* ふらふらする 、今日の俺のタレの味、今日の調子 */
+
+/* まずこれが前提 */
+/*
+body {
+    margin: 0;
+}
+*/
+
+/*
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+*/
+
+/* 先々代 */
+/*
+body {
+    margin: 0px;
+}
+*/
+
+/* 親 */
+.parent {
+
+    /* 親父、反省する */
+    /*
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    */
+
+    background-color: #ff7f50;    /* coral */
+}
+
+/* 子 */
+.child {
+    
+    /*
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    */
+    /*
+    position: relative;
+    top: 30px;
+    left: 30px;
+    */
+
+    /* 指定しなければ auto になる点に注意 */
+    /* top: auto;
+    left: auto; */
+
+    background-color: #ff4500;    /* orangered */
+}

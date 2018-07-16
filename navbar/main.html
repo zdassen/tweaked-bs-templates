@@ -4,13 +4,13 @@
         <meta charset="utf-8">
 
         <!-- Stylesheet -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="./style.css">
 
         <!-- JavaScript -->
-        <script src="./js/jquery-3.3.1.js" type="text/javascript"></script>
-        <script src="./js/popper.js" type="text/javascript"></script>
-        <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="../js/popper.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.min.js" type="text/javascript"></script>
 
     </head>
     <body>
@@ -19,10 +19,11 @@
             <div class="col-sm-12">
                 
                 <!-- ナビゲーションバー -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-main">
+                <nav class="navbar navbar-expand-lg navbar-inverse bg-main">
 
                     <!-- ブランド -->
-                    <a class="navbar-brand text-main-dark" href="#">Navbar</a>
+                    <img src="../img/icon-inverse.png" alt="icon" style="width:40px;height:40px;margin-right:12px;">
+                    <a class="navbar-brand text-white float-left" href="#">Mind-graph</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -33,24 +34,24 @@
 
                             <!-- ホーム -->
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Home <span class="sr-only"></span></a>
+                                <a href="#" class="nav-link text-white">Home<span class="sr-only"></span></a>
                             </li>
 
                             <!-- リンク -->
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Link</a>
+                                <a href="#" class="nav-link text-white">Link</a>
                             </li>
 
                             <!-- ドロップダウンメニュー -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
 
                                 <!-- メニューリスト -->
                                 <div class="dropdown-menu bg-main" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item text-white" href="#">Action</a>
+                                    <a class="dropdown-item text-white" href="#">Another action</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item text-white" href="#">Something else here</a>
                                 </div>
                             </li>
 
@@ -59,9 +60,8 @@
 
                 </nav>
 
-            </div>
-        </div>
+            </div><!-- col -->
+        </div><!-- row -->
 
-        <script src="./main.js" type="text/javascript"></script>
     </body>
 </html>
