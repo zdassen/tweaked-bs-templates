@@ -18,8 +18,8 @@ function hiddenScrollbar() {
 }
 
 
-/* SVG 要素のサイズを画面一杯に設定する ( マージン指定可 ) */
-function setupFullSize(svgId, hMinus) {
+/* SVG 要素のサイズを画面一杯に設定する */
+function setupFullSize(svgId) {
 
   // スクロールバーを非表示にする
   hiddenScrollbar();
