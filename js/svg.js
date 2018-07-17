@@ -27,7 +27,7 @@ function setupFullSize(svgId) {
   // SVG 要素を取得
   let svg = document.getElementById(svgId);
 
-  // サイズを設定する ( アスペクト比の部分がまだ理解しきれていない )
+  // サイズを設定する
   let w = window.innerWidth;
   let h = window.innerHeight;
   svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
