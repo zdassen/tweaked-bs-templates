@@ -3,6 +3,9 @@
  */
 
 
+
+/* ----- メインの色設定 ----- */
+
 /* メイン色 */
 .bg-main {
     background-color: lightseagreen !important;
@@ -18,6 +21,19 @@
     color: darkslategray !important;
 }
 
+
+
+/* ----- ナビゲーションバー ----- */
+
+/* ナビゲーションバーのリンク ( ホバー時 ) */
+a.nav-link:hover {
+    color: paleturquoise !important;
+}
+
+
+
+/* ----- ドロップダウンメニュー ----- */
+
 /* ドロップダウンメニューの項目 ( 通常時 ) */
 .dropdown-item > a {
     background-color: darkcyan !important;
@@ -26,6 +42,7 @@
 
 /* ドロップダウンメニューの項目 ( ホバー時 ) */
 .dropdown-item:hover {
+    color: paleturquoise !important;
     background-color: darkcyan !important;
 }
 
