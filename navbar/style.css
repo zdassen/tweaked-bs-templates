@@ -30,14 +30,29 @@ a.nav-link:hover {
     color: paleturquoise !important;
 }
 
+/* 検索用フォーム */
+#search {
+    position: relative;
+}
+
+#search input {
+    text-indent: 24px;
+}
+
+#search > #search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
 
 
 /* ----- ドロップダウンメニュー ----- */
 
 /* ドロップダウンメニューの項目 ( 通常時 ) */
-.dropdown-item > a {
-    background-color: darkcyan !important;
-    opacity: 0.5;
+.dropdown-item {
+    background-color: lightseagreen !important;
+    -webkit-transition: background-color 0.3s ease !important;
 }
 
 /* ドロップダウンメニューの項目 ( ホバー時 ) */
@@ -56,6 +71,11 @@ a.nav-link:hover {
 .dropdown-menu {
     padding: 0.0rem 0.0rem;
     border-radius: 0.0rem;
+}
+
+/* ドロップダウンメニューの三角形の部分 */
+.dropdown-toggle::after {
+    color: white;
 }
 
 /* ハンバーガーアイコンの色を白に変える */
